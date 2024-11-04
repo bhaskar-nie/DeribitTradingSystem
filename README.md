@@ -69,10 +69,9 @@ Execute the program using:
 
 After running the application, you can interact with it using the following commands:
 
-1. *Authenticate and Initialize*
-   - The application will automatically prompt you for your API credentials from api_credentials.txt.
 
-2. *Place Buy Order*
+
+1. *Place Buy Order*
    - *Currency:* BTC
    - *Kind:* future
    - *Symbol:* BTC-PERPETUAL
@@ -80,7 +79,7 @@ After running the application, you can interact with it using the following comm
    - *Label:* MyBuyOrder
    - *Order Type:* market
 
-3. *Place Sell Order*
+2. *Place Sell Order*
    - *Currency:* ETH
    - *Kind:* future
    - *Symbol:* ETH-PERPETUAL
@@ -90,7 +89,7 @@ After running the application, you can interact with it using the following comm
    - *Trigger Price:* 2600.0
    - *Order Type:* stop_limit
 
-4. *Modify Order*
+3. *Modify Order*
    - *Option to Cancel or Edit Orders:*
      - *Cancel Order by ID*
        - *Order ID:* 1234-5678-ABCD
@@ -102,26 +101,26 @@ After running the application, you can interact with it using the following comm
        - *New Amount:* 0.3
        - *New Price:* 2550.0
 
-5. *Get Order Book*
+4. *Get Order Book*
    - *Get by Instrument Name:*
      - *Instrument Name:* BTC-PERPETUAL
    - *Get by Instrument ID:*
      - *Instrument ID:* 123456
 
-6. *View Current Positions*
+5. *View Current Positions*
    - *Option to Get Position by Instrument Name or All Positions:*
      - *Instrument Name:* BTC-PERPETUAL
      - *Currency:* BTC
      - *Kind:* future
 
-7. *Start WebSocket Server*
+6. *Start WebSocket Server*
    - Command to start the WebSocket server on port 9002.
 
-8. *Subscribe to Symbol for Order Book Updates*
+7. *Subscribe to Symbol for Order Book Updates*
    - *Symbol:* ETH-PERPETUAL
    - Enter the symbol to receive continuous order book updates.
 
-9. *Exit the Application*
+8. *Exit the Application*
    - Command to safely exit the program.
 
 
