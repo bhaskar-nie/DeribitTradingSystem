@@ -1,0 +1,80 @@
+*.dSYM
+*.o
+*.gcno
+*.gcda
+.DS_Store
+
+.wsjcpp-logs/*
+.wsjcpp/*
+
+/.idea
+/cmake-build-*
+
+# API-Keys
+/src/config.json
+
+# Visual Studio / Visual Studio Code
+/.vs/
+/.vscode/
+/out/
+
+# clangd cache
+/.cache/
+
+# build directories (vscode-cmake-tools, user-defined, ...)
+/build*/
+
+# fuzzers
+/tests/corpus_*
+/tests/parse_*_fuzzer
+
+# documentation
+/docs/docset/docSet.dsidx
+/docs/docset/JSON_for_Modern_C++.docset/
+/docs/docset/JSON_for_Modern_C++.tgz
+/docs/mkdocs/docs/__pycache__/
+/docs/mkdocs/docs/examples/
+/docs/mkdocs/docs/images/json.gif
+/docs/mkdocs/site/
+/docs/mkdocs/venv/
+
+# serve_header
+/localhost.pem
+/localhost-key.pem
+/serve_header.yml
+
+# Swift Package Manager build directory
+/.build
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
