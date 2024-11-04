@@ -6,13 +6,13 @@ DeribitTradingSystem is a powerful C++ application designed to interface with th
 Watch the full system functionality demonstration: [Watch Video](https://drive.google.com/file/d/1Sjf_krFRaGcYWY3W12_9CwuhtGmyqg6b/view?usp=sharing)
 
 ## Features
-- *Place Orders*: Place market, limit, and stop-limit orders on Deribit.
-- *Modify Orders*: Adjust quantities or prices of existing orders.
-- *Cancel Orders*: Cancel any open order by order ID.
-- *Retrieve Order Book*: Fetch and view the order book for specific trading pairs.
-- *View Current Positions*: Display all active trading positions.
-- *WebSocket Server*: Allows external clients to subscribe to symbols and receive real-time order book updates.
-- *Supported Markets*: Futures, options, and perpetual markets for all supported symbols on Deribit.
+- **Place Orders**: Place buy and sell orders on Deribit.
+- **Modify Orders**: Provides options to adjust, cancel, or modify orders. You can:
+  - Cancel orders by ID, currency, currency pair, instrument, label, or order type.
+  - Edit orders by ID or label.
+- **Retrieve Order Book**: Fetch and view the order book for specific trading pairs.
+- **View Current Positions**: Display all active trading positions.
+- **WebSocket Server**: Enables external clients to connect, subscribe to symbols, and receive real-time order book updates.
 
 ## Scope
 - Supports Deribit futures, options, and perpetual contracts.
